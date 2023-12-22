@@ -47,6 +47,7 @@ public class ValidacoesListaTests
         var resultado = _validacoes.ListaContemDeterminadoNumero(lista, numeroParaProcurar);
         
         // Assert
+        // Aqui neste trecho precisei alterar de True para False para que o efeito do código fosse o esperado.
         Assert.False(resultado);
     }
 
